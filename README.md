@@ -1,4 +1,4 @@
 # UFCdeeplearningFIGHTprediction
 
 Dataset:
-https://www.kaggle.com/rajeevw/ufcdata?select=data.csv
+https://docs.google.com/spreadsheets/d/1wI_bzHdpDLyMlhxdumpaJ8LS-tgY9xC0tQq2r1w5Wk4/edit?usp=sharing

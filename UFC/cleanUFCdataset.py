@@ -8,3 +8,15 @@ column_names = ["Winner", "B_current_lose_streak", "B_current_win_streak", "B_lo
 df = pd.read_csv("UFC/UFCdata.csv", delimiter = ",", usecols= column_names)
 # print(df)   # Print dataframe
 
+
+# Split the dataframe into two csv files (red wins, blue wins)
+df_red = pd.DataFrame(columns = column_names)
+df_blue = pd.DataFrame(columns = column_names)
+
+for row in df.itertuples():
+    if row.Winner == "Blue":
+        df_blue.append(row)
+    else:
+        df_red.append(row)
+
+print(df_blue)
